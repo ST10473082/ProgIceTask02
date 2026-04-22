@@ -33,4 +33,12 @@ public class BloodData {
     public String getrhFactor() { 
         return rhFactor;
     }
+    
+    public void setRhFactor(String rhfactor) {
+        this.rhFactor = rhFactor;
+    }
+    
+    public void display() {
+        System.out.println("Blood Type: " + bloodType + rhFactor);
+    }
 }
